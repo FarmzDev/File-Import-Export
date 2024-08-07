@@ -11,7 +11,7 @@ fileDropdownLinks([
       label: "Export as JSON",
       button: true,
       dataId: "export-as-json",
-      multi: false,
+      multi: true,
       onclick: (file) => {console.log(file)}
     }
 ])
